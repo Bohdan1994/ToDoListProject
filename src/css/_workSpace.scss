@@ -1,0 +1,137 @@
+.workSpace {
+	display: flex;
+	justify-content: flex-start;
+	width: 1000px;
+	height: 600px;
+	margin-left: 15px;
+	padding: 10px;
+	background-color: #fafafa;
+}
+
+.dayLogMenuBarHeaderaID{
+	display:flex;
+	justify-content: center;
+}
+.day-Header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 140px;
+	height: 140px;
+	background: brown;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}	
+
+.workSpace .day-logo{
+	width: 120px;
+	height: 90px;
+	background-color: transparent;
+	font-size: 2em;
+	text-align: center;
+	color: #fafafa;
+}
+.monthTitle{
+	width: 10px;
+	height: 10px;
+	font-size: 0.5em;
+	color: #fafafa;
+}
+   
+.workSpace .content{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 850px;
+	height: 595px;
+	background: orange;
+}	
+.scheduleList{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width:  850px;
+	padding: 2px;
+	background-color: lighten(gray, 10%);
+	border-color: 3px solid silver;
+	box-sizing: border-box;
+}
+.toDoList{
+	border: 1px solid silver;
+	background-color: gray;
+	padding: 1px;
+	height: 35px;
+	&:hover{
+		background-color: red;
+}
+}
+
+
+.menuBar{
+	display: flex;
+	width: 140px;
+	height: 450px;
+	background: yellow;
+}
+.addBtn{
+	width: 100%;
+	height : 20px;
+}
+.toDoInput{
+	display: flex;
+	position: absolute;
+	top: 15%;
+	right: 25%;
+	background-color: green;
+	width: 425px;
+	height: 300px ;
+	box-sizing: border-box;
+}
+.closeSpan	{
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	color: #fafafa;
+	background-color: purple;
+}
+.inputTitle{
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	width: 70%;
+	height: 2em;
+	background-color: lighten(green, 2%);
+	border: none;
+	font-size: 1em;
+}
+.inputContent{
+	position: absolute;
+	left: 5%;
+	top: 20%;
+	width: 90%;
+	height: 175px;
+	background-color: lighten(green, 2%);
+	border: none;
+	font-size: 1em;
+	resize: none;
+}
+.addToDoBtn{
+	position: absolute;
+	margin: 0 0 0 0;
+	bottom: 0;
+	width: 425px;
+	height: 15%;
+	text-align: center;
+	padding-top: 3%;
+	box-sizing: border-box;
+	background-color: red;
+}
+.addToDoBtn:hover	{	
+	background-color: lighten(red, 10%);
+}
+.toDoList:target{
+	background-color: white;
+}

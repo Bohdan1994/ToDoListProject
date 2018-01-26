@@ -1,0 +1,72 @@
+$block: 40px;
+
+#calendar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    height: 280px;
+    background-color: gray;
+    justify-content: center;
+    }
+
+.month-header-container{
+    display: flex;
+    justify-content: space-around;
+    width: 280px;
+    height: 20px;
+    background-color: green;
+    text-align: center;
+    }
+
+.month-header {
+    color: #fafafa;
+    }
+
+.switch_buttom_left {
+    width: 20px;
+    height: 20px;
+    color:  #fafafa;
+    }
+
+.switch_buttom_left:hover {
+    background-color: red;
+    }
+
+.switch_buttom_right{
+    width: 20px;
+    height: 20px;
+    color: #fafafa;
+}
+.switch_buttom_right:hover{
+    background-color: red;
+}
+
+.day_of_week_header{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 20px;
+    background-color: yellow;
+}
+.day_of_week    {
+    text-align: center;
+    width: 40px;
+    height: 10px;
+}   
+.day{
+   background-color: red;
+   width: $block;
+   height: $block;
+   text-align: center;
+   vertical-align:middle;
+}
+.day:hover{
+    background-color: darken(orange, 5%) ;
+}
+.today{
+   background-color: orange;
+   width: $block;
+   height: $block;
+   text-align: center;
+   vertical-align:middle ; 
+} 

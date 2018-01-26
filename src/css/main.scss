@@ -1,0 +1,17 @@
+@import "calendar";
+@import "workSpace";
+
+    
+body {
+    min-width: 100%;
+    min-height: 100%;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #666666;
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
